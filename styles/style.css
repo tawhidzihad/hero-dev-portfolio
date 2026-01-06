@@ -47,14 +47,19 @@
     margin-bottom: 30px;
     line-height: 30px;
     color: #757575;
+}
 
+.text_center{
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* main style */
 
 header{
     background: url("../images/developer.png"), url("../images/header_bg.png"), #FFF8F3;
-    background-position: top left, bottom right;
+
+    background-position: 23px 38px, bottom right;
     background-repeat: no-repeat;
     padding-top: 50px;
 }
@@ -233,5 +238,50 @@ nav .menu li a{
 .resume_card .card_text{
     font-size: 16px;
     line-height: 28px;
+    color: #757575;
+}
+
+footer{
+    margin-top:130px ;
+    background-color: #FFF8F3;
+    padding: 130px 0px;
+}
+
+footer .footer_container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 117px;
+}
+
+.footer_container h2{
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+.footer_container .social{
+    max-width: 562px;
+}
+
+.footer_container .social p{
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.footer_container .icons a{
+    margin-right: 24px;
+}
+
+.footer_container form input[type="text"] , .footer_container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px ;
     color: #757575;
 }
